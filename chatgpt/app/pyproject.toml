@@ -2,12 +2,14 @@
 name = "chatgpt"
 version = "0.1.0"
 description = "Microservice for interacting with ChatGPT API."
-authors = ["Vladimir kiryanov_vova_134@mail.ru"]
+authors = ["Vladimir vovcha5854@gmail.com"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 fastapi = "*"
+uvicorn = "*"
+openai = "*"
 
 
 [build-system]
